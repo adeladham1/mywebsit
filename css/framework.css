@@ -1,0 +1,165 @@
+
+:root {
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --grey-color:#888;
+}.p20 {
+    padding: 20px;
+}
+.p15 {
+    padding: 15px;
+}
+.p10 {
+    padding: 10px;
+}
+.pt20 {
+    padding-top: 20px;
+}
+.m20 {
+    margin: 20px;
+}
+.m0 {
+    margin: 0;
+}
+.mt0 {
+    margin-top: 0;
+}
+.mt5 {
+    margin-top: 5px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mb5 {
+    margin-bottom: 5px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.bn {
+    border: none;
+}
+.bgee {
+    background-color: #eee;
+}
+.bgwh {
+    background-color: white;
+}
+.bgbl {
+    background-color: var(--blue-color);
+}
+.bgor {
+    background-color: var(--orange-color);
+}
+.bggr {
+    background-color: var(--green-color);
+}
+.cw {
+    color: white;
+}
+.cb {
+    color: black;
+}
+.cbl {
+    color: blue;
+}
+.cor {
+    color: var(--orange-color);
+}
+.cgr {
+    color: var(--green-color);
+}
+.cg {
+    color: var(--grey-color);
+}
+.cre {
+    color: var(--red-color);
+}
+.rad6 {
+    border-radius: 6px;
+}
+.rad10 {
+    border-radius: 10px;
+}
+.pr {
+    position: relative;
+}
+.db {
+    display: block;
+}
+.df {
+    display: flex;
+}
+.ac {
+    align-items: center;
+}
+.tac {
+    text-align: center;
+}
+.fs13 {
+    font-size: 13px;
+}
+.fs14 {
+    font-size: 14px;
+}
+.fs15 {
+    font-size: 15px;
+}
+.fs25 {
+    font-size: 25px;
+}
+.fwb {
+    font-weight: bold;
+}
+@media (max-width: 767px) {
+    .hm {
+        display: none;
+    }
+    .bm {
+        display: block;
+    }
+    .tacm {
+        text-align: center;
+    }
+}
+.wfi {
+    width: fit-content;
+}
+.wf {
+    width: 100%;
+}
+.spbe {
+    justify-content: space-between;
+}
+.fr {
+    flex-wrap: wrap;
+}
+.cf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dg {
+    display: grid;
+}
+.gap20 {
+    gap: 20px;
+}
+.btsh {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
